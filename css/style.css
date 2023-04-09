@@ -1,0 +1,160 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Styiling Header and nav bar */
+.head_container {
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.98);
+}
+
+.logo_nav {
+  width: 268px;
+  height: 33px;
+}
+
+nav {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.link_nav {
+  text-decoration: none;
+  color: #ababab;
+  padding: 0px 9px;
+}
+
+.first_link {
+  color: #00b39b;
+}
+
+/* Styiling Section 1 Heading */
+.head_section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo_header {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 34px;
+  font-family: "Work Sans", Arial, sans-serif;
+  color: #00b39b;
+  font-weight: 300;
+  text-align: center;
+  margin: 16px 0px;
+}
+
+.two_paragraphs {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.paragraph_header {
+  margin: 13px 0;
+  font-weight: 400;
+  color: #747474;
+  font-size: 16px;
+  line-height: 1.75;
+  padding: 10px;
+}
+
+/* Styling Section 2 : Cards section */
+
+.card_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px; /*Space between rows and columns in flex*/
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.card_one {
+  display: flex;
+  flex-direction: column;
+  background-color: #00ccb1;
+  border-radius: 10px;
+  height: 345px;
+  width: 33%;
+}
+
+.card_two {
+  display: flex;
+  flex-direction: column;
+  background-color: #3d83df;
+  border-radius: 10px;
+  height: 345px;
+  width: 33%;
+}
+
+.card_three {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b2734;
+  border-radius: 10px;
+  height: 345px;
+  width: 33%;
+}
+
+.cards {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: "Work Sans", Arial, sans-serif;
+  margin: 8px 0px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.par_card {
+  font-size: 24px;
+  font-family: "Work Sans", Arial, sans-serif;
+  margin: 8px 0px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.selections {
+  border: 0;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.main_selections {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}

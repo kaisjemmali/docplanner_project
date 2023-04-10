@@ -81,7 +81,7 @@ h1 {
   padding: 10px;
 }
 
-/* Styling Section 2 : Cards section */
+/* Styling Section 2 with Flexbox: Cards section */
 
 .card_section {
   display: flex;
@@ -172,4 +172,121 @@ h2 {
   text-decoration: underline;
   margin-bottom: 10px;
   padding-left: 30px;
+}
+
+/* Section 3 : Logos and Heading styling */
+
+.logos_title {
+  font-size: 26px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #00b39b;
+  padding-right: 30px;
+  margin: 9px 0px;
+  width: 30%;
+}
+
+.logo_section {
+  display: flex;
+  flex-direction: row;
+  width: 66%;
+  margin: 50px auto;
+}
+
+/* Section 3 : Logo styling with grid */
+
+li {
+  list-style-type: none;
+}
+
+.logos {
+  width: 130px;
+  height: 30px;
+  padding: 0px 0 5px 5px;
+  align-items: center;
+}
+
+.logos_half {
+  width: 82px;
+  height: 50px;
+}
+
+.logos_list {
+  width: 70%;
+  height: 170px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 12.5% 12.5%;
+}
+
+.logo1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 25%;
+  align-self: center;
+}
+.logo2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 25%;
+  align-self: center;
+}
+.logo3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 25%;
+  align-self: center;
+}
+.logo4 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  width: 25%;
+  align-self: center;
+}
+.logo5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 25%;
+  align-self: center;
+}
+.logo6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 25%;
+  align-self: center;
+}
+.logo7 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 25%;
+  align-self: center;
+}
+.logo8 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 12.5%;
+  align-self: center;
+}
+.logo9 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 12.5%;
+  align-self: center;
+}
+.logo10 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 25%;
+  align-self: center;
 }

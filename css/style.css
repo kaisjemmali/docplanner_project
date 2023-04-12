@@ -8,6 +8,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,6 +39,11 @@ nav {
 
 .first_link {
   color: #00b39b;
+}
+
+.link_nav:hover {
+  color: #00b39b;
+  cursor: pointer;
 }
 
 /* Styiling Section 1 Heading */
@@ -206,9 +212,17 @@ li {
   align-items: center;
 }
 
+.logos:hover {
+  cursor: pointer;
+}
+
 .logos_half {
   width: 82px;
   height: 50px;
+}
+
+.logos_half:hover {
+  cursor: pointer;
 }
 
 .logos_list {
@@ -394,4 +408,159 @@ h3 {
   justify-content: space-around;
   margin-left: 30px;
   margin-top: 20px;
+}
+
+/* Section 5 styling */
+
+.section_five {
+  display: flex;
+  flex-direction: column;
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.header_sec_five {
+  font-size: 30px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #00b39b;
+  text-align: center;
+  line-height: 40px;
+}
+
+.par_sec_five {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Section 6 : Countries Styling */
+
+.country_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 66%;
+  gap: 20px; /*Space between rows and columns in flex*/
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 30px; */
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 310px;
+  border: solid 1px transparent;
+  border-radius: 3%;
+  background-color: #fff;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.country:hover {
+  box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.text_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #fff;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.button_country {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #3d83df;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  height: 30px;
+}
+
+.par_countries {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #747474;
+}
+
+/* Section 7 : Join us Styling */
+
+.join_us {
+  display: flex;
+  flex-direction: column;
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.header_join {
+  color: #333;
+  font-size: 30px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.but_join {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #3d83df;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  height: 40px;
+  width: 210px;
+  text-align: center;
+}
+
+.but_join:hover {
+  cursor: pointer;
+}
+
+/* Footer Styling */
+
+footer {
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 1px #eef2f2;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.p_footer {
+  color: #ababab;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.link_footer {
+  text-decoration: none;
 }

@@ -25,10 +25,15 @@ header {
   height: 33px;
 }
 
+.logo_nav:hover {
+  cursor: pointer;
+}
+
 nav {
   font-size: 16px;
   font-weight: 400;
   padding-top: 10px;
+  display: flex;
 }
 
 .link_nav {
@@ -44,6 +49,40 @@ nav {
 .link_nav:hover {
   color: #00b39b;
   cursor: pointer;
+}
+
+/* Dropdown Menu */
+
+.link_dropdown {
+  text-decoration: none;
+  color: #ababab;
+  line-height: 120%;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  display: none;
+  position: absolute;
+  width: 240px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  right: 2px;
+  top: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content a:hover {
+  background-color: #f6f8f8;
 }
 
 /* Styiling Section 1 Heading */
@@ -351,14 +390,15 @@ li {
 
 .left_statistics {
   padding-top: 60px;
+  position: relative;
 }
 
 .logo_statistics {
   width: 450px;
   height: 330px;
-  position: relative;
-  right: 20%;
-  bottom: 6%;
+  position: absolute;
+  top: 270px;
+  right: 40px;
   margin-top: 30px;
 }
 
@@ -474,7 +514,7 @@ h3 {
 }
 
 .country:hover {
-  box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.13);
   cursor: pointer;
 }
 
@@ -499,6 +539,11 @@ h3 {
   border-radius: 10px;
   padding: 10px 15px;
   height: 30px;
+}
+
+.button_country:hover {
+  cursor: pointer;
+  background: #1662c6;
 }
 
 .par_countries {
@@ -547,6 +592,7 @@ h3 {
 
 .but_join:hover {
   cursor: pointer;
+  background: #1662c6;
 }
 
 /* Footer Styling */
